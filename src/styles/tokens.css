@@ -1,0 +1,122 @@
+/* src/styles/tokens.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@600;700;800&display=swap');
+
+:root {
+  /* Colors */
+  --bg: #0b1220;
+  --surface: #0f1724;
+  --text: #e6eef8;
+  --muted: #94a3b8;
+  --accent: #06b6d4;
+  --accent-2: #ff7a59;
+  --glass: rgba(255, 255, 255, 0.04);
+
+  /* Spacing */
+  --space-xs: 6px;
+  --space-sm: 12px;
+  --space: 16px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --space-xl: 64px;
+
+  /* Max width */
+  --container: 1200px;
+
+  /* Typography */
+  --font-heading: 'Poppins', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Font sizes - using clamp for responsive typography */
+  --h1: clamp(36px, 6vw, 56px);
+  --h2: clamp(28px, 4vw, 40px);
+  --h3: clamp(20px, 3vw, 24px);
+  --base: 16px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Breakpoints */
+  --mobile: 480px;
+  --tablet: 768px;
+  --desktop: 1024px;
+  --wide: 1440px;
+}
+
+/* Global base setup */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  font-size: var(--base);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'kern' 1;
+  font-kerning: normal;
+}
+
+/* Container helper */
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Utilities */
+.text-muted {
+  color: var(--muted);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  :root {
+    --space-lg: 32px;
+    --space-xl: 48px;
+  }
+  
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --base: 15px;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+}
