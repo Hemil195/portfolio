@@ -47,14 +47,17 @@ function App() {
             <a href="https://github.com/Hemil195" target="_blank" rel="noopener noreferrer" className="social-link" title="GitHub">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://linkedin.com/in/hemil-patel" target="_blank" rel="noopener noreferrer" className="social-link" title="LinkedIn">
+            <a href="https://linkedin.com/in/hemil-patel-298a83288" target="_blank" rel="noopener noreferrer" className="social-link" title="LinkedIn">
               <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="https://leetcode.com/hemilpatel0195" target="_blank" rel="noopener noreferrer" className="social-link" title="LeetCode">
-              <i className="fas fa-code"></i>
             </a>
             <a href="https://www.hackerrank.com/hemilpatel0195" target="_blank" rel="noopener noreferrer" className="social-link" title="HackerRank">
               <i className="fab fa-hackerrank"></i>
+            </a>
+            <a href="https://leetcode.com/hemilpatel0195" target="_blank" rel="noopener noreferrer" className="social-link" title="LeetCode">
+              <img src="/leetcode.png" alt="LeetCode" className="social-icon-img" />
+            </a>
+            <a href="https://codilio.com/profile/hemilpatel0195" target="_blank" rel="noopener noreferrer" className="social-link" title="Codilio">
+              <img src="/codolio.svg" alt="Codilio" className="social-icon-svg" />
             </a>
           </div>
         </div>
@@ -369,25 +372,10 @@ function App() {
               <span className="contact-link-label">Phone</span>
               <span className="contact-link-value">+91 XXXX XXXXX</span>
             </a>
-            <a href="https://github.com/Hemil195" target="_blank" rel="noopener noreferrer" className="contact-link">
-              <span className="contact-link-icon"><i className="fab fa-github"></i></span>
-              <span className="contact-link-label">GitHub</span>
-              <span className="contact-link-value">github.com/Hemil195</span>
-            </a>
-            <a href="https://linkedin.com/in/hemil-patel" target="_blank" rel="noopener noreferrer" className="contact-link">
+            <a href="https://linkedin.com/in/hemil-patel-298a83288" target="_blank" rel="noopener noreferrer" className="contact-link">
               <span className="contact-link-icon"><i className="fab fa-linkedin"></i></span>
               <span className="contact-link-label">LinkedIn</span>
-              <span className="contact-link-value">linkedin.com/in/hemil-patel</span>
-            </a>
-            <a href="https://leetcode.com/hemilpatel0195" target="_blank" rel="noopener noreferrer" className="contact-link">
-              <span className="contact-link-icon"><i className="fas fa-code"></i></span>
-              <span className="contact-link-label">LeetCode</span>
-              <span className="contact-link-value">leetcode.com/hemilpatel0195</span>
-            </a>
-            <a href="https://www.hackerrank.com/hemilpatel0195" target="_blank" rel="noopener noreferrer" className="contact-link">
-              <span className="contact-link-icon"><i className="fab fa-hackerrank"></i></span>
-              <span className="contact-link-label">HackerRank</span>
-              <span className="contact-link-value">hackerrank.com/hemilpatel0195</span>
+              <span className="contact-link-value">Hemil Patel</span>
             </a>
           </div>
 

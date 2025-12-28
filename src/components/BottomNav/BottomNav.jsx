@@ -53,7 +53,7 @@ function BottomNav() {
         <a href="#skills" onClick={() => handleNavClick('skills')} className={activeSection === 'skills' ? 'active' : ''}><i className="fas fa-laptop-code"></i><span className="nav-text"> Skills</span></a>
         <a href="#education" onClick={() => handleNavClick('education')} className={activeSection === 'education' ? 'active' : ''}><i className="fas fa-user-graduate"></i><span className="nav-text"> Education</span></a>
         <a href="#projects" onClick={() => handleNavClick('projects')} className={activeSection === 'projects' ? 'active' : ''}><i className="fas fa-diagram-project"></i><span className="nav-text"> Projects</span></a>
-        <a href="#achievements" onClick={() => handleNavClick('achievements')} className={activeSection === 'achievements' ? 'active' : ''}><i className="fas fa-award"></i><span className="nav-text"> Awards</span></a>
+        <a href="#achievements" onClick={() => handleNavClick('achievements')} className={activeSection === 'achievements' ? 'active' : ''}><i className="fas fa-award"></i><span className="nav-text"> Achievements</span></a>
         <a href="#contact" onClick={() => handleNavClick('contact')} className={activeSection === 'contact' ? 'active' : ''}><i className="fas fa-paper-plane"></i><span className="nav-text"> Contact</span></a>
       </nav>
       
