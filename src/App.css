@@ -152,27 +152,14 @@
   height: 300px;
 }
 
-/* Floating Animation for Hero Icons */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
+/* Smooth hover for social links */
+.social-link {
+  transition: all 0.3s ease;
 }
 
-.hero-links a {
-  display: inline-block;
-  animation: float 3s ease-in-out infinite;
+.social-link:hover {
+  transform: translateY(-4px) scale(1.05);
 }
-
-.hero-links a:nth-child(1) { animation-delay: 0s; }
-.hero-links a:nth-child(2) { animation-delay: 0.2s; }
-.hero-links a:nth-child(3) { animation-delay: 0.4s; }
-.hero-links a:nth-child(4) { animation-delay: 0.6s; }
-.hero-links a:nth-child(5) { animation-delay: 0.8s; }
-.hero-links a:nth-child(6) { animation-delay: 1s; }
 
 /* Pulse animation for skill tags */
 @keyframes pulse {
@@ -242,12 +229,10 @@
 }
 
 /* Smooth underline effect for links */
-.hero-links a,
 .exp-link {
   position: relative;
 }
 
-.hero-links a::after,
 .exp-link::after {
   content: '';
   position: absolute;
@@ -259,7 +244,6 @@
   transition: width 0.3s ease;
 }
 
-.hero-links a:hover::after,
 .exp-link:hover::after {
   width: 100%;
 }

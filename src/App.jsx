@@ -27,23 +27,35 @@ function App() {
       {/* Hero Section */}
       <section id="home" className="section section--home">
         <div className="hero-content">
+          <div className="hero-greeting">Hi, I'm</div>
           <h1 className="hero-name">Hemil Patel</h1>
+          <div className="hero-role">Full Stack Developer</div>
           <div className="hero-divider"></div>
           <p className="hero-tagline">
-            Full Stack Developer dedicated to building scalable applications and crafting 
-            exceptional user experiences with modern technologies.
+            I build scalable web applications and craft exceptional digital experiences 
+            using modern technologies. Passionate about solving complex problems through clean, 
+            efficient code.
           </p>
           <div className="hero-cta">
-            <a href="#" className="btn btn-outline">View Resume</a>
-            <a href="#projects" className="btn btn-primary">View Projects</a>
+            <a href="#projects" className="btn btn-primary"><i className="fas fa-rocket"></i> View My Work</a>
+            <a href="#contact" className="btn btn-outline"><i className="fas fa-paper-plane"></i> Get In Touch</a>
           </div>
-          <div className="hero-links">
-            <a href="mailto:hemilpatel0195@gmail.com"><i className="fas fa-envelope"></i> hemilpatel0195@gmail.com</a>
-            <a href="#contact"><i className="fas fa-phone"></i> +91 XXXX XXXXX</a>
-            <a href="https://github.com/Hemil195" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> GitHub</a>
-            <a href="https://linkedin.com/in/hemil-patel" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://leetcode.com/hemilpatel0195" target="_blank" rel="noopener noreferrer"><i className="fas fa-code"></i> LeetCode</a>
-            <a href="https://www.hackerrank.com/hemilpatel0195" target="_blank" rel="noopener noreferrer"><i className="fab fa-hackerrank"></i> HackerRank</a>
+          <div className="hero-social">
+            <a href="mailto:hemilpatel0195@gmail.com" className="social-link" title="Email">
+              <i className="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/Hemil195" target="_blank" rel="noopener noreferrer" className="social-link" title="GitHub">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/hemil-patel" target="_blank" rel="noopener noreferrer" className="social-link" title="LinkedIn">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://leetcode.com/hemilpatel0195" target="_blank" rel="noopener noreferrer" className="social-link" title="LeetCode">
+              <i className="fas fa-code"></i>
+            </a>
+            <a href="https://www.hackerrank.com/hemilpatel0195" target="_blank" rel="noopener noreferrer" className="social-link" title="HackerRank">
+              <i className="fab fa-hackerrank"></i>
+            </a>
           </div>
         </div>
       </section>

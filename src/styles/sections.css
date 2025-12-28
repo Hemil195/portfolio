@@ -71,6 +71,14 @@
   animation: fadeInUp 0.8s ease-out;
 }
 
+.hero-greeting {
+  font-size: 18px;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
 .hero-name {
   font-family: var(--font-heading);
   font-size: clamp(42px, 8vw, 64px);
@@ -83,6 +91,14 @@
   background-clip: text;
 }
 
+.hero-role {
+  font-size: clamp(20px, 4vw, 28px);
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
 .hero-divider {
   width: 80px;
   height: 3px;
@@ -92,13 +108,14 @@
 }
 
 .hero-tagline {
-  font-size: clamp(16px, 2.5vw, 19px);
+  font-size: clamp(15px, 2.5vw, 17px);
   color: var(--muted);
   margin-bottom: 40px;
-  line-height: 1.7;
+  line-height: 1.8;
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 400;
 }
 
 .hero-cta {
@@ -109,22 +126,33 @@
   margin-bottom: 40px;
 }
 
-.hero-links {
+.hero-social {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
   flex-wrap: wrap;
-  font-size: 14px;
 }
 
-.hero-links a {
+.social-link {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
   color: var(--muted);
+  font-size: 20px;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.hero-links a:hover {
+.social-link:hover {
+  background: rgba(6, 182, 212, 0.1);
+  border-color: var(--accent);
   color: var(--accent);
+  transform: translateY(-4px);
 }
 
 /* ============ BUTTONS ============ */
