@@ -49,12 +49,12 @@ function BottomNav() {
   return (
     <>
       <nav className="bottom-nav">
-        <a href="#home" onClick={() => handleNavClick('home')} className={activeSection === 'home' ? 'active' : ''}><i className="fas fa-home"></i> Home</a>
-        <a href="#skills" onClick={() => handleNavClick('skills')} className={activeSection === 'skills' ? 'active' : ''}><i className="fas fa-code"></i> Skills</a>
-        <a href="#education" onClick={() => handleNavClick('education')} className={activeSection === 'education' ? 'active' : ''}><i className="fas fa-graduation-cap"></i> Education</a>
-        <a href="#projects" onClick={() => handleNavClick('projects')} className={activeSection === 'projects' ? 'active' : ''}><i className="fas fa-rocket"></i> Projects</a>
-        <a href="#achievements" onClick={() => handleNavClick('achievements')} className={activeSection === 'achievements' ? 'active' : ''}><i className="fas fa-trophy"></i> Awards</a>
-        <a href="#contact" onClick={() => handleNavClick('contact')} className={activeSection === 'contact' ? 'active' : ''}><i className="fas fa-envelope"></i> Contact</a>
+        <a href="#home" onClick={() => handleNavClick('home')} className={activeSection === 'home' ? 'active' : ''}><i className="fas fa-house"></i><span className="nav-text"> Home</span></a>
+        <a href="#skills" onClick={() => handleNavClick('skills')} className={activeSection === 'skills' ? 'active' : ''}><i className="fas fa-laptop-code"></i><span className="nav-text"> Skills</span></a>
+        <a href="#education" onClick={() => handleNavClick('education')} className={activeSection === 'education' ? 'active' : ''}><i className="fas fa-user-graduate"></i><span className="nav-text"> Education</span></a>
+        <a href="#projects" onClick={() => handleNavClick('projects')} className={activeSection === 'projects' ? 'active' : ''}><i className="fas fa-diagram-project"></i><span className="nav-text"> Projects</span></a>
+        <a href="#achievements" onClick={() => handleNavClick('achievements')} className={activeSection === 'achievements' ? 'active' : ''}><i className="fas fa-award"></i><span className="nav-text"> Awards</span></a>
+        <a href="#contact" onClick={() => handleNavClick('contact')} className={activeSection === 'contact' ? 'active' : ''}><i className="fas fa-paper-plane"></i><span className="nav-text"> Contact</span></a>
       </nav>
       
       <button 

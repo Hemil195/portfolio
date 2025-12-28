@@ -84,8 +84,16 @@
   }
   
   .bottom-nav a {
-    padding: 6px 10px;
-    font-size: 12px;
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+  
+  .bottom-nav a i {
+    margin-right: 0;
+  }
+  
+  .nav-text {
+    display: none;
   }
 }
 
@@ -97,7 +105,14 @@
   }
   
   .bottom-nav a {
-    padding: 5px 8px;
+    padding: 8px 10px;
+    font-size: 16px;
+  }
+  
+  .nav-text {
+    display: none;
+  }
+}
     font-size: 11px;
   }
 }
